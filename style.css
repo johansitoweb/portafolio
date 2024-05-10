@@ -1,0 +1,315 @@
+
+
+
+
+body{
+    background-image: url('bg-fondo-img/portafolio\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*
+                                   ********icono principal**************
+*/
+.open-principal-contenido{
+    border-radius: 50px;
+    width:20px;
+    height: 20px;
+    color: white;
+
+}
+.icono{
+    border-radius: 50px;
+    width: 31px;
+    height: 31px;
+}
+
+    .playball-regular {
+        font-family: "Playball", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 70px;
+      }
+
+                             /*About*/
+      .open-leutigfay-new-indentfy-conteniudo-lavuchef{
+        border-radius: 10px;
+        border: solid 1px violet;
+        padding-left: auto;
+        padding-right: auto;
+        width: 400px;
+        height: 130px;
+       
+      }
+      .open-leutigfay-new-indentfy-conteniudo-lavuchef:hover{
+        background-color: rgb(244, 4, 4);
+        border: none;
+      }
+
+
+      /*menu*/
+     
+      .menus-printre{
+        text-decoration: none;
+        color: white;
+      }
+      .menus-printre:hover{
+        color:violet;
+      }
+
+
+      .menus-printre-segund{
+        text-decoration: none;
+        color: white;
+      }
+      .menus-printre-segund:hover{
+        color:rgb(239, 3, 15);
+      }
+
+
+/*github icon*/
+      .github-img{
+        border-radius: 50px;
+        border: none;
+        width: 31px;
+        height: 31px;
+        max-width: 31px;
+        max-height: 31px;
+        min-width: none;
+        min-height: none;
+      }
+
+      .menus-printre-tercer{
+        text-decoration: none;
+        color: white;
+      }
+      .menus-printre-tercer:hover{
+        color:rgb(8, 247, 76);
+      }
+
+                                               /*Mis servicios*/
+
+    .oprend-ferfckd-dnpseidsc-opp-python-php-golang-django{
+        border-radius: 10px;
+        border: solid 1px rgb(233, 11, 11);
+        padding-left: auto;
+        padding-right: auto;
+        width: 430px;
+        height: 130px;
+        color:white;
+        align-items: center;
+      
+
+    }    
+    
+    .oprend-ferfckd-dnpseidsc-opp-python-php-golang-django:hover{
+        background-color: violet;
+        border: none;
+    }
+            /*<!--servicios que ofresco/////tres card-->*/
+               /*primero el de desarrollo web*/                                                                                                
+ .ods-samtinta{
+    border-radius: 10px;
+    border: solid violet 3px;
+    color:white;
+ } 
+ 
+ .ods-samtinta:hover{
+   /* background-color: violet;*/
+   border: solid violet 3px;
+ }
+
+ /*verde*/
+ .open-dif-lauvechef-content-perfect-td{
+    border-radius: 10px;
+    border: solid rgb(6, 215, 243) 3px;
+    color:white;
+ } 
+ 
+ .open-dif-lauvechef-content-perfect-td
+:hover{
+    /*background-color: rgb(12, 237, 53);*/
+    border: solid rgb(6, 200, 243) 3px;
+ }
+
+ /*rojo*/
+ .redns-ods-samtinta{
+    border-radius: 10px;
+    border: solid rgb(247, 5, 13) 3px;
+    color:white;
+ } 
+ 
+ .redns-ods-samtinta:hover{
+   /* background-color: violet;*/
+   border: solid rgb(234, 5, 5) 3px;
+ }
+
+
+
+
+ /*avatar mio*/
+ .avatar-mio{
+    border-radius: 50px;
+    border: solid red 1px;
+    width: 30px;
+    height: 30px;
+   
+ }
+
+ /*
+                        **************proyectos en los que estoy trabajando*******************
+ 
+ */
+ .proyect-trab{
+    border: solid violet 2px;
+    border-radius: 10px;
+    width: 5opx;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+ }
+ .proyect-trab:hover{
+  border: none;
+ }
+
+
+ .fdddsdsdhfsnhgioherg-proyect-trab{
+  border: solid rgb(241, 3, 15) 2px;
+  border-radius: 10px;
+  width: 5opx;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+}
+.fdddsdsdhfsnhgioherg-proyect-trab:hover{
+border: none;
+}
+
+/*contacto*/
+.form-container {
+  width: 400px;
+  background: linear-gradient(#212121, #212121) padding-box,
+              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-size: 200% 100%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #717171;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: inherit;
+  color: #717171;
+  font-weight: 600;
+  width: 40%;
+  background: #313131;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+
+/* estilos especiales*/
+.rinder-ponfistunes{
+  border:solid 2px red;
+  border-radius:10px;
+}
